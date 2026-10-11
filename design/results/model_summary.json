@@ -1,0 +1,303 @@
+{
+  "conditions": [
+    {
+      "condition": 0,
+      "name": "healthy kidney",
+      "brain_chip": "none",
+      "working_nephrons": 1000,
+      "filtration_percent": 100,
+      "per_nephron_hz": 16.1,
+      "renin_percent": 13,
+      "flags_percent_of_reports": {},
+      "abnormal_percent": 0
+    },
+    {
+      "condition": 1,
+      "name": "early nephron loss (25 %)",
+      "brain_chip": "none",
+      "working_nephrons": 750,
+      "filtration_percent": 100,
+      "per_nephron_hz": 21.3,
+      "renin_percent": 22,
+      "flags_percent_of_reports": {
+        "nephrons missing": 100,
+        "hyperfiltration": 100,
+        "early-loss pattern": 100
+      },
+      "abnormal_percent": 100
+    },
+    {
+      "condition": 2,
+      "name": "moderate nephron loss (50 %)",
+      "brain_chip": "none",
+      "working_nephrons": 500,
+      "filtration_percent": 99,
+      "per_nephron_hz": 31.9,
+      "renin_percent": 50,
+      "flags_percent_of_reports": {
+        "nephrons missing": 100,
+        "hyperfiltration": 100,
+        "renin high": 20,
+        "early-loss pattern": 100
+      },
+      "abnormal_percent": 100
+    },
+    {
+      "condition": 3,
+      "name": "advanced nephron loss (75 %)",
+      "brain_chip": "none",
+      "working_nephrons": 250,
+      "filtration_percent": 55,
+      "per_nephron_hz": 35.2,
+      "renin_percent": 100,
+      "flags_percent_of_reports": {
+        "nephrons missing": 100,
+        "hyperfiltration": 100,
+        "low total filtration": 100,
+        "renin high": 100
+      },
+      "abnormal_percent": 100
+    },
+    {
+      "condition": 4,
+      "name": "low perfusion pressure (60 mmHg)",
+      "brain_chip": "none",
+      "working_nephrons": 1000,
+      "filtration_percent": 99,
+      "per_nephron_hz": 16,
+      "renin_percent": 28,
+      "flags_percent_of_reports": {},
+      "abnormal_percent": 0
+    },
+    {
+      "condition": 5,
+      "name": "high perfusion pressure (160 mmHg)",
+      "brain_chip": "none",
+      "working_nephrons": 1000,
+      "filtration_percent": 159,
+      "per_nephron_hz": 25.5,
+      "renin_percent": 0,
+      "flags_percent_of_reports": {
+        "hyperfiltration": 100,
+        "high perfusion pressure": 100
+      },
+      "abnormal_percent": 100
+    },
+    {
+      "condition": 6,
+      "name": "high sympathetic tone",
+      "brain_chip": "none",
+      "working_nephrons": 1000,
+      "filtration_percent": 100,
+      "per_nephron_hz": 16,
+      "renin_percent": 100,
+      "flags_percent_of_reports": {
+        "renin high": 100,
+        "strong sympathetic drive": 100
+      },
+      "abnormal_percent": 100
+    },
+    {
+      "condition": 7,
+      "name": "healthy kidney, pressure sweep",
+      "brain_chip": "none",
+      "working_nephrons": 1000,
+      "filtration_percent": 95,
+      "per_nephron_hz": 15.3,
+      "renin_percent": 29,
+      "flags_percent_of_reports": {
+        "hyperfiltration": 52,
+        "high perfusion pressure": 49
+      },
+      "abnormal_percent": 54
+    },
+    {
+      "condition": 0,
+      "name": "healthy kidney",
+      "brain_chip": "connected",
+      "working_nephrons": 1000,
+      "filtration_percent": 100,
+      "per_nephron_hz": 16.1,
+      "renin_percent": 13,
+      "flags_percent_of_reports": {},
+      "abnormal_percent": 0
+    },
+    {
+      "condition": 1,
+      "name": "early nephron loss (25 %)",
+      "brain_chip": "connected",
+      "working_nephrons": 750,
+      "filtration_percent": 100,
+      "per_nephron_hz": 21.3,
+      "renin_percent": 22,
+      "flags_percent_of_reports": {
+        "nephrons missing": 100,
+        "hyperfiltration": 100,
+        "early-loss pattern": 100
+      },
+      "abnormal_percent": 100
+    },
+    {
+      "condition": 2,
+      "name": "moderate nephron loss (50 %)",
+      "brain_chip": "connected",
+      "working_nephrons": 500,
+      "filtration_percent": 99,
+      "per_nephron_hz": 31.9,
+      "renin_percent": 50,
+      "flags_percent_of_reports": {
+        "nephrons missing": 100,
+        "hyperfiltration": 100,
+        "renin high": 20,
+        "early-loss pattern": 100
+      },
+      "abnormal_percent": 100
+    },
+    {
+      "condition": 3,
+      "name": "advanced nephron loss (75 %)",
+      "brain_chip": "connected",
+      "working_nephrons": 250,
+      "filtration_percent": 55,
+      "per_nephron_hz": 35.2,
+      "renin_percent": 100,
+      "flags_percent_of_reports": {
+        "nephrons missing": 100,
+        "hyperfiltration": 100,
+        "low total filtration": 100,
+        "renin high": 100
+      },
+      "abnormal_percent": 100
+    },
+    {
+      "condition": 4,
+      "name": "low perfusion pressure (60 mmHg)",
+      "brain_chip": "connected",
+      "working_nephrons": 1000,
+      "filtration_percent": 99,
+      "per_nephron_hz": 16,
+      "renin_percent": 98,
+      "flags_percent_of_reports": {
+        "renin high": 100
+      },
+      "abnormal_percent": 100
+    },
+    {
+      "condition": 5,
+      "name": "high perfusion pressure (160 mmHg)",
+      "brain_chip": "connected",
+      "working_nephrons": 1000,
+      "filtration_percent": 159,
+      "per_nephron_hz": 25.5,
+      "renin_percent": 0,
+      "flags_percent_of_reports": {
+        "hyperfiltration": 100,
+        "high perfusion pressure": 100
+      },
+      "abnormal_percent": 100
+    },
+    {
+      "condition": 6,
+      "name": "high sympathetic tone",
+      "brain_chip": "connected",
+      "working_nephrons": 1000,
+      "filtration_percent": 99,
+      "per_nephron_hz": 16,
+      "renin_percent": 100,
+      "flags_percent_of_reports": {
+        "renin high": 100,
+        "strong sympathetic drive": 100
+      },
+      "abnormal_percent": 100
+    },
+    {
+      "condition": 7,
+      "name": "healthy kidney, pressure sweep",
+      "brain_chip": "connected",
+      "working_nephrons": 1000,
+      "filtration_percent": 95,
+      "per_nephron_hz": 15.3,
+      "renin_percent": 92,
+      "flags_percent_of_reports": {
+        "hyperfiltration": 52,
+        "renin high": 5,
+        "high perfusion pressure": 49
+      },
+      "abnormal_percent": 58
+    }
+  ],
+  "pressure_response": [
+    {
+      "pressure": 50,
+      "filtration_percent": 100,
+      "per_nephron_hz": 16.1,
+      "renin_percent": 37
+    },
+    {
+      "pressure": 60,
+      "filtration_percent": 100,
+      "per_nephron_hz": 16,
+      "renin_percent": 35
+    },
+    {
+      "pressure": 70,
+      "filtration_percent": 99,
+      "per_nephron_hz": 16,
+      "renin_percent": 32
+    },
+    {
+      "pressure": 80,
+      "filtration_percent": 99,
+      "per_nephron_hz": 16,
+      "renin_percent": 17
+    },
+    {
+      "pressure": 90,
+      "filtration_percent": 100,
+      "per_nephron_hz": 16,
+      "renin_percent": 15
+    },
+    {
+      "pressure": 100,
+      "filtration_percent": 100,
+      "per_nephron_hz": 16,
+      "renin_percent": 15
+    },
+    {
+      "pressure": 110,
+      "filtration_percent": 100,
+      "per_nephron_hz": 16,
+      "renin_percent": 1
+    },
+    {
+      "pressure": 120,
+      "filtration_percent": 100,
+      "per_nephron_hz": 16.1,
+      "renin_percent": 0
+    },
+    {
+      "pressure": 140,
+      "filtration_percent": 124,
+      "per_nephron_hz": 19.9,
+      "renin_percent": 0
+    },
+    {
+      "pressure": 160,
+      "filtration_percent": 159,
+      "per_nephron_hz": 25.5,
+      "renin_percent": 0
+    },
+    {
+      "pressure": 180,
+      "filtration_percent": 183,
+      "per_nephron_hz": 29.3,
+      "renin_percent": 0
+    },
+    {
+      "pressure": 200,
+      "filtration_percent": 205,
+      "per_nephron_hz": 32.8,
+      "renin_percent": 0
+    }
+  ]
+}

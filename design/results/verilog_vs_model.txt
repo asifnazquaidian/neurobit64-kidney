@@ -1,0 +1,29 @@
+NeuroBit64-kidney : Verilog (Icarus Verilog) against the software model, 1000 cells
+
+condition 0, 1280 ticks, NeuroBit64-S connected: 1   (simulation 426 s; test bench done: 80 frames, 30 packets, uart_errors=0 sync_errors=0)
+PASS  80 frames and 30 advertising packets identical; 30 packets received with good CRC from c7:4e:42:36:34:03
+  RESULT ticks=1280 cells=1000 cond=0 link=1 frames=80 packets=30 raster_bits=1280000 raster_ones=20224 raster_sig=3c603c8233225674 nb_words=19998 nb_ones=112676 nb_sig=f6831f938fdf164b
+
+condition 1, 960 ticks, NeuroBit64-S connected: 0   (simulation 332 s; test bench done: 60 frames, 21 packets, uart_errors=0 sync_errors=0)
+PASS  60 frames and 21 advertising packets identical; 21 packets received with good CRC from c7:4e:42:36:34:03
+  RESULT ticks=960 cells=1000 cond=1 link=0 frames=60 packets=21 raster_bits=960000 raster_ones=14429 raster_sig=565151cadfe5c9a2 nb_words=0 nb_ones=0 nb_sig=0000000000000000
+
+condition 2, 640 ticks, NeuroBit64-S connected: 0, input 70 written through uart_rx in tick 40   (simulation 203 s; test bench done: 40 frames, 15 packets, uart_errors=0 sync_errors=0)
+PASS  40 frames and 15 advertising packets identical; 15 packets received with good CRC from c7:4e:42:36:34:03
+  RESULT ticks=640 cells=1000 cond=2 link=0 frames=40 packets=15 raster_bits=640000 raster_ones=7627 raster_sig=9748b347ce413395 nb_words=0 nb_ones=0 nb_sig=0000000000000000
+
+condition 3, 960 ticks, NeuroBit64-S connected: 1   (simulation 300 s; test bench done: 60 frames, 21 packets, uart_errors=0 sync_errors=0)
+PASS  60 frames and 21 advertising packets identical; 21 packets received with good CRC from c7:4e:42:36:34:03
+  RESULT ticks=960 cells=1000 cond=3 link=1 frames=60 packets=21 raster_bits=960000 raster_ones=8049 raster_sig=610b5798027aaf86 nb_words=14998 nb_ones=91193 nb_sig=831e8ef3db412ac5
+
+condition 6, 640 ticks, NeuroBit64-S connected: 1   (simulation 200 s; test bench done: 40 frames, 15 packets, uart_errors=0 sync_errors=0)
+PASS  40 frames and 15 advertising packets identical; 15 packets received with good CRC from c7:4e:42:36:34:03
+  RESULT ticks=640 cells=1000 cond=6 link=1 frames=40 packets=15 raster_bits=640000 raster_ones=7527 raster_sig=24ecafec0338e430 nb_words=9998 nb_ones=58314 nb_sig=4f9ace076fc3e946
+
+condition 7, 960 ticks, NeuroBit64-S connected: 0   (simulation 318 s; test bench done: 60 frames, 21 packets, uart_errors=0 sync_errors=0)
+PASS  60 frames and 21 advertising packets identical; 21 packets received with good CRC from c7:4e:42:36:34:03
+  RESULT ticks=960 cells=1000 cond=7 link=0 frames=60 packets=21 raster_bits=960000 raster_ones=14167 raster_sig=152086b1579df9f6 nb_words=0 nb_ones=0 nb_sig=0000000000000000
+
+condition 5, 480 ticks, NeuroBit64-S connected: 0   (simulation 153 s; test bench done: 30 frames, 9 packets, uart_errors=0 sync_errors=0)
+PASS  30 frames and 9 advertising packets identical; 9 packets received with good CRC from c7:4e:42:36:34:03
+  RESULT ticks=480 cells=1000 cond=5 link=0 frames=30 packets=9 raster_bits=480000 raster_ones=12140 raster_sig=f787442fc9b7a858 nb_words=0 nb_ones=0 nb_sig=0000000000000000

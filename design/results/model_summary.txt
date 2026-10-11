@@ -1,0 +1,37 @@
+NeuroBit64-Kidney, software model
+
+A. All conditions, 16.4 s of model time (values of the last 256-tick epoch; flags over the last 12 s)
+
+cond  condition                            brain chip  working  filtration %  per nephron Hz  renin %  flags raised (% of reports)
+0     healthy kidney                       none           1000          100            16.1       13  none
+1     early nephron loss (25 %)            none            750          100            21.3       22  nephrons missing 100, hyperfiltration 100, early-loss pattern 100
+2     moderate nephron loss (50 %)         none            500           99            31.9       50  nephrons missing 100, hyperfiltration 100, renin high 20, early-loss pattern 100
+3     advanced nephron loss (75 %)         none            250           55            35.2      100  nephrons missing 100, hyperfiltration 100, low total filtration 100, renin high 100
+4     low perfusion pressure (60 mmHg)     none           1000           99              16       28  none
+5     high perfusion pressure (160 mmHg)   none           1000          159            25.5        0  hyperfiltration 100, high perfusion pressure 100
+6     high sympathetic tone                none           1000          100              16      100  renin high 100, strong sympathetic drive 100
+7     healthy kidney, pressure sweep       none           1000           95            15.3       29  hyperfiltration 52, high perfusion pressure 49
+0     healthy kidney                       connected      1000          100            16.1       13  none
+1     early nephron loss (25 %)            connected       750          100            21.3       22  nephrons missing 100, hyperfiltration 100, early-loss pattern 100
+2     moderate nephron loss (50 %)         connected       500           99            31.9       50  nephrons missing 100, hyperfiltration 100, renin high 20, early-loss pattern 100
+3     advanced nephron loss (75 %)         connected       250           55            35.2      100  nephrons missing 100, hyperfiltration 100, low total filtration 100, renin high 100
+4     low perfusion pressure (60 mmHg)     connected      1000           99              16       98  renin high 100
+5     high perfusion pressure (160 mmHg)   connected      1000          159            25.5        0  hyperfiltration 100, high perfusion pressure 100
+6     high sympathetic tone                connected      1000           99              16      100  renin high 100, strong sympathetic drive 100
+7     healthy kidney, pressure sweep       connected      1000           95            15.3       92  hyperfiltration 52, renin high 5, high perfusion pressure 49
+
+B. Healthy kidney at fixed perfusion pressure (8.2 s each)
+
+pressure mmHg  filtration %  per nephron Hz  renin %
+       50           100            16.1       37
+       60           100              16       35
+       70            99              16       32
+       80            99              16       17
+       90           100              16       15
+      100           100              16       15
+      110           100              16        1
+      120           100            16.1        0
+      140           124            19.9        0
+      160           159            25.5        0
+      180           183            29.3        0
+      200           205            32.8        0
